@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thailand Hotel</title>
+    <link rel="stylesheet" href="../style.css">
+    <style>
+        /* Hero section */
+        .hero {
+            background-image: url('../bg.jpg');
+            background-size: cover;
+            background-position: center;
+            padding: 100px 0;
+            text-align: center;
+            color: #fff;
+            width: 100%;
+        }
+
+        .hero-title {
+            font-size: 3em;
+        }
+
+        .hero-subtitle {
+            font-size: 1.5em;
+            margin-top: 20px;
+        }
+
+        /* About section */
+        .about {
+            padding: 50px 0;
+            text-align: center;
+        }
+
+        .about-title {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+
+        .about-description {
+            max-width: 600px;
+            margin: auto;
+            font-size: 1.1em;
+        }
+
+        /* Gallery section */
+        .gallery {
+            padding: 1.4rem;
+            text-align: center;
+        }
+
+        .gallery-images {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+        }
+
+        .gallery-image {
+            width: 100%;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Amenities section */
+        .amenities {
+            padding: 50px 0;
+            text-align: center;
+        }
+
+        .amenities-title {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+
+        .amenities-description {
+            max-width: 600px;
+            margin: auto;
+            font-size: 1.1em;
+        }
+
+        /* Contact section */
+        .contact {
+            width: 100%;
+            padding: 50px 0;
+            text-align: center;
+        }
+
+        .contact-title {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+
+        .contact-form {
+            max-width: 600px;
+            margin: auto;
+        }
+
+        .contact-form input,
+        .contact-form textarea,
+        .contact-form button {
+            width: 100%;
+            margin-bottom: 20px;
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+        }
+
+        .contact-form button {
+            background-color: #333;
+            color: #fff;
+            cursor: pointer;
+        }
+
+        /* Footer */
+        footer {
+            background: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        /* Responsive styles */
+        @media screen and (max-width: 768px) {
+            .header-navigation {
+                display: none;
+            }
+
+            .header-title {
+                font-size: 1.5em;
+            }
+
+            .hero-title {
+                font-size: 2em;
+            }
+
+            .hero-subtitle {
+                font-size: 1.2em;
+            }
+        }
+
+        .container-fluid {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            height: 100%;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar">
+        <a href="#" class="navbar-brand">LBEF Travels</a>
+        <ul class="navbar-nav">
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="/destination.html">Destinations</a></li>
+            <li><a href="/about.html">About Us</a></li>
+            <li><a href="/contact.html">Contact</a></li>
+            <li><a href="#">Login</a></li>
+        </ul>
+        <div class="hamburger-menu">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+    </nav>
+    <div class="container-fluid">
+        <section class="hero">
+            <div class="container-fluid">
+                <h2 class="hero-title">Welcome to Thailand Hotel</h2>
+                <p class="hero-subtitle">Experience luxury in the heart of Bangkok</p>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <div class="container-fluid">
+                <h2 class="about-title">About Us</h2>
+                <p class="about-description">Thailand Hotel is a luxury hotel located in the heart of Bangkok. We offer
+                    exceptional service, exquisite dining options, and breathtaking views of the city skyline. Our hotel
+                    is the perfect choice for both business and leisure travelers.</p>
+            </div>
+        </section>
+
+        <section id="gallery" style="width: 100%;" class="gallery">
+            <h2 class="gallery-title" style="margin-bottom: 2rem;">Gallery</h2>
+            <div class="gallery-images">
+                <img class="gallery-image" src="https://via.placeholder.com/300" alt="Image 1">
+                <img class="gallery-image" src="https://via.placeholder.com/300" alt="Image 2">
+                <img class="gallery-image" src="https://via.placeholder.com/300" alt="Image 3">
+                <img class="gallery-image" src="https://via.placeholder.com/300" alt="Image 4">
+            </div>
+        </section>
+
+        <section id="amenities" class="amenities">
+            <div class="container-fluid">
+                <h2 class="amenities-title">Amenities</h2>
+                <p class="amenities-description">Our hotel offers a wide range of amenities to make your stay
+                    comfortable and enjoyable. From our state-of-the-art fitness center to our luxurious spa, we have
+                    everything you need to relax and unwind.</p>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <h2 class="contact-title">Contact Us</h2>
+            <form class="contact-form">
+                <input type="text" placeholder="Name">
+                <input type="email" placeholder="Email">
+                <textarea placeholder="Message"></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </section>
+
+        </div>
+        <footer>
+            <div class="container">
+                <p>&copy; 2024 Thailand Hotel. All rights reserved.</p>
+            </div>
+        </footer>
+</body>
+
+</html>
