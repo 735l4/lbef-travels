@@ -1,0 +1,206 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Website</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Create a grid */
+        .destination-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+
+        /* Style destination cards */
+        .destination-card {
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            padding: 10px;
+        }
+
+        /* Style destination card images */
+        .destination-card img {
+            display: block;
+            margin: auto;
+            width: 100%;
+            height: auto;
+            border-radius: 10px 10px 0 0;
+        }
+
+        /* Style destination card headings */
+        .destination-card h2 {
+            text-align: center;
+            margin-top: 10px;
+        }
+
+        /* Style destination card details */
+        .destination-card ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .destination-card ul li {
+            margin: 5px 0;
+            padding: 5px 0;
+            border-bottom: 1px solid #ddd;
+        }
+
+        /* Style destination card hotels */
+        .destination-card ul li h3 {
+            margin-top: 20px;
+            font-size: 1.1em;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar">
+        <a href="#" class="navbar-brand">LBEF Travels</a>
+        <ul class="navbar-nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#destination">Destinations</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="#">Login</a></li>
+        </ul>
+        <div class="hamburger-menu">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+    </nav>
+    <div>
+        <div class="destination-grid">
+            <div class="destination-card">
+                <img src="bg.jpg" alt="Thailand">
+                <h2>Thailand</h2>
+                <ul>
+                    <li>No of Days: 7</li>
+                    <li>Route: Bangkok - Phuket - Chiang Mai</li>
+                    <li>Expenses: $2000</li>
+                    <li>Sightseeing: Beaches, Temples, Night Markets</li>
+                </ul>
+                <h3>Hotels:</h3>
+                <ul>
+                    <li>Budget: $100 - $200</li>
+                    <li>Hotel X</li>
+                    <li>Hotel Y</li>
+                    <li>Hotel Z</li>
+                </ul>
+            </div>
+
+            <div class="destination-card">
+                <img src="bg.jpg" alt="Paris">
+                <h2>Paris</h2>
+                <ul>
+                    <li>No of Days: 5</li>
+                    <li>Route: Eiffel Tower - Louvre Museum - Notre-Dame Cathedral</li>
+                    <li>Expenses: $3000</li>
+                    <li>Sightseeing: Landmarks, Museums, Cafes</li>
+                </ul>
+                <h3>Hotels:</h3>
+                <ul>
+                    <li>Budget: $150 - $300</li>
+                    <li>Hotel A</li>
+                    <li>Hotel B</li>
+                    <li>Hotel C</li>
+                </ul>
+            </div>
+
+            <div class="destination-card">
+                <img src="bg.jpg" alt="New York City">
+                <h2>New York City</h2>
+                <ul>
+                    <li>No of Days: 4</li>
+                    <li>Route: Times Square - Central Park - Statue of Liberty</li>
+                    <li>Expenses: $2500</li>
+                    <li>Sightseeing: Skyscrapers, Broadway Shows, Shopping</li>
+                </ul>
+                <h3>Hotels:</h3>
+                <ul>
+                    <li>Budget: $200 - $400</li>
+                    <li>Hotel P</li>
+                    <li>Hotel Q</li>
+                    <li>Hotel R</li>
+                </ul>
+                <!-- Repeat the above code for other destinations -->
+            </div>
+            <div class="destination-card">
+                <img src="bg.jpg" alt="New York">
+                <h2>New York</h2>
+                <ul>
+                    <li>No of Days: 4</li>
+                    <li>Route: Times Square - Central Park - Statue of Liberty</li>
+                    <li>Expenses: $2500</li>
+                    <li>Sightseeing: Skyscrapers, Broadway Shows, Shopping</li>
+                </ul>
+                <h3>Hotels:</h3>
+                <ul>
+                    <li>Budget: $200 - $400</li>
+                    <li>Hotel D</li>
+                    <li>Hotel E</li>
+                    <li>Hotel F</li>
+                </ul>
+            </div>
+
+            <div class="destination-card">
+                <img src="bg.jpg" alt="Tokyo">
+                <h2>Tokyo</h2>
+                <ul>
+                    <li>No of Days: 6</li>
+                    <li>Route: Shibuya - Shinjuku - Tokyo Disneyland</li>
+                    <li>Expenses: $3500</li>
+                    <li>Sightseeing: Temples, Gardens, Shopping Streets</li>
+                </ul>
+                <h3>Hotels:</h3>
+                <ul>
+                    <li>Budget: $250 - $500</li>
+                    <li>Hotel G</li>
+                    <li>Hotel H</li>
+                    <li>Hotel I</li>
+                </ul>
+            </div>
+
+            <div class="destination-card">
+                <img src="bg.jpg" alt="London">
+                <h2>London</h2>
+                <ul>
+                    <li>No of Days: 3</li>
+                    <li>Route: Buckingham Palace - Tower of London - British Museum</li>
+                    <li>Expenses: $2800</li>
+                    <li>Sightseeing: Palaces, Museums, River Thames</li>
+                </ul>
+                <h3>Hotels:</h3>
+                <ul>
+                    <li>Budget: $180 - $350</li>
+                    <li>Hotel J</li>
+                    <li>Hotel K</li>
+                    <li>Hotel L</li>
+                </ul>
+            </div>
+
+            <div class="destination-card">
+                <img src="bg.jpg" alt="Dubai">
+                <h2>Dubai</h2>
+                <ul>
+                    <li>No of Days: 5</li>
+                    <li>Route: Burj Khalifa - Palm Jumeirah - Dubai Mall</li>
+                    <li>Expenses: $4000</li>
+                    <li>Sightseeing: Skyscrapers, Desert Safari, Shopping Malls</li>
+                </ul>
+                <h3>Hotels:</h3>
+                <ul>
+                    <li>Budget: $300 - $600</li>
+                    <li>Hotel M</li>
+                    <li>Hotel N</li>
+                    <li>Hotel O</li>
+                </ul>
+            </div>
+        </div>
+</body>
