@@ -12,10 +12,11 @@
     <nav class="navbar">
         <a href="#" class="navbar-brand">LBEF Travels</a>
         <ul class="navbar-nav">
-            <li><a href="#">Home</a></li>
+            <li><a href="index.html">Home</a></li>
             <li><a href="#destination">Destinations</a></li>
-            <li><a href="#">About Us</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="#">Login</a></li>
         </ul>
         <div class="hamburger-menu">
             <div class="bar"></div>
@@ -30,101 +31,105 @@
             <p>Explore new destinations and cultures with us.</p>
             <button>Book Now</button>
         </div>
-        <section class="section destination" id="destination">
-            <div class="container">
+        <section class="section destination"  id="destination">
+            <div class="container" style="display: flex;
+        flex-direction: column;
+        justify-content: center;">
                 <p class="section-subtitle">Destinations</p>
 
                 <h2 class="h2 section-title">Choose Your Place</h2>
 
-                <ul class="destination-list">
+                <div>
+                    <ul class="destination-list" style="margin-bottom: 10px;">
+    
+                        <li class="w-50">
+                            <a href="#" class="destination-card">
+    
+                                <figure class="card-banner">
+                                    <img src="./assets/images/destination-1.jpg" width="1140" height="1100" loading="lazy"
+                                        alt="Malé, Maldives" class="img-cover">
+                                </figure>
+    
+                                <div class="card-content">
+                                    <p class="card-subtitle">Malé</p>
+    
+                                    <h3 class="h3 card-title">Maldives</h3>
+                                </div>
+    
+                            </a>
+                        </li>
+    
+                        <li class="w-50">
+                            <a href="#" class="destination-card">
+    
+                                <figure class="card-banner">
+                                    <img src="./assets/images/destination-2.jpg" width="1140" height="1100" loading="lazy"
+                                        alt="Bangkok, Thailand" class="img-cover">
+                                </figure>
+    
+                                <div class="card-content">
+                                    <p class="card-subtitle">Bangkok</p>
+    
+                                    <h3 class="h3 card-title">Thailand</h3>
+                                </div>
+    
+                            </a>
+                        </li>
+    
+                        <li>
+                            <a href="#" class="destination-card">
+    
+                                <figure class="card-banner">
+                                    <img src="./assets/images/destination-3.jpg" width="1110" height="480" loading="lazy"
+                                        alt="Kuala Lumpur, Malaysia" class="img-cover">
+                                </figure>
+    
+                                <div class="card-content">
+                                    <p class="card-subtitle">Kuala Lumpur</p>
+    
+                                    <h3 class="h3 card-title">Malaysia</h3>
+                                </div>
+    
+                            </a>
+                        </li>
+    
+                        <li>
+                            <a href="#" class="destination-card">
+    
+                                <figure class="card-banner">
+                                    <img src="./assets/images/destination-4.jpg" width="1110" height="480" loading="lazy"
+                                        alt="Kathmandu, Nepal" class="img-cover">
+                                </figure>
+    
+                                <div class="card-content">
+                                    <p class="card-subtitle">Kathmandu</p>
+    
+                                    <h3 class="h3 card-title">Nepal</h3>
+                                </div>
+    
+                            </a>
+                        </li>
+    
+                        <li>
+                            <a href="#" class="destination-card">
+    
+                                <figure class="card-banner">
+                                    <img src="./assets/images/destination-5.jpg" width="1110" height="480" loading="lazy"
+                                        alt="Jakarta, Indonesia" class="img-cover">
+                                </figure>
+    
+                                <div class="card-content">
+                                    <p class="card-subtitle">Jakarta</p>
+    
+                                    <h3 class="h3 card-title">Indonesia</h3>
+                                </div>
+    
+                            </a>
+                        </li>
+                    </ul>
+                </div>
 
-                    <li class="w-50">
-                        <a href="#" class="destination-card">
-
-                            <figure class="card-banner">
-                                <img src="./assets/images/destination-1.jpg" width="1140" height="1100" loading="lazy"
-                                    alt="Malé, Maldives" class="img-cover">
-                            </figure>
-
-                            <div class="card-content">
-                                <p class="card-subtitle">Malé</p>
-
-                                <h3 class="h3 card-title">Maldives</h3>
-                            </div>
-
-                        </a>
-                    </li>
-
-                    <li class="w-50">
-                        <a href="#" class="destination-card">
-
-                            <figure class="card-banner">
-                                <img src="./assets/images/destination-2.jpg" width="1140" height="1100" loading="lazy"
-                                    alt="Bangkok, Thailand" class="img-cover">
-                            </figure>
-
-                            <div class="card-content">
-                                <p class="card-subtitle">Bangkok</p>
-
-                                <h3 class="h3 card-title">Thailand</h3>
-                            </div>
-
-                        </a>
-                    </li>
-
-                    <li>
-                        <a href="#" class="destination-card">
-
-                            <figure class="card-banner">
-                                <img src="./assets/images/destination-3.jpg" width="1110" height="480" loading="lazy"
-                                    alt="Kuala Lumpur, Malaysia" class="img-cover">
-                            </figure>
-
-                            <div class="card-content">
-                                <p class="card-subtitle">Kuala Lumpur</p>
-
-                                <h3 class="h3 card-title">Malaysia</h3>
-                            </div>
-
-                        </a>
-                    </li>
-
-                    <li>
-                        <a href="#" class="destination-card">
-
-                            <figure class="card-banner">
-                                <img src="./assets/images/destination-4.jpg" width="1110" height="480" loading="lazy"
-                                    alt="Kathmandu, Nepal" class="img-cover">
-                            </figure>
-
-                            <div class="card-content">
-                                <p class="card-subtitle">Kathmandu</p>
-
-                                <h3 class="h3 card-title">Nepal</h3>
-                            </div>
-
-                        </a>
-                    </li>
-
-                    <li>
-                        <a href="#" class="destination-card">
-
-                            <figure class="card-banner">
-                                <img src="./assets/images/destination-5.jpg" width="1110" height="480" loading="lazy"
-                                    alt="Jakarta, Indonesia" class="img-cover">
-                            </figure>
-
-                            <div class="card-content">
-                                <p class="card-subtitle">Jakarta</p>
-
-                                <h3 class="h3 card-title">Indonesia</h3>
-                            </div>
-
-                        </a>
-                    </li>
-
-                </ul>
-
+                <button style="background: yellow;padding: 1.2rem;border: 1px solid black;">Show More</button>
             </div>
         </section>
 
